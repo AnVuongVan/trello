@@ -1,0 +1,34 @@
+.drag {
+	opacity: 0.8;
+	cursor: grab;
+	transform: rotate(20deg);
+}
+
+.dropzone {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgb(255, 255, 255, .8);
+	border: 2px dashed #5e6c84;
+	font-size: 34px;
+	display: flex;
+	justify-content: center;
+	color: #172b4d;
+	z-index: -1;
+}
+
+.dragover {
+	background-color: #fff;
+}
+
+.dropzone > span {
+	position: fixed;
+	margin-top: 200px;
+}
+
+.empty {
+	border: 2px solid #172b4d;
+	background-color: #3f5274;
+}
